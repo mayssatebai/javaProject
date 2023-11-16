@@ -1,4 +1,4 @@
-package Test;
+package test;
 import studentsystem.Module;
 import studentsystem.Student;
 import studentsystem.Subject;
