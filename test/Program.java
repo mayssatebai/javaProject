@@ -28,7 +28,19 @@ public class Program {
         System.out.println("Enter scores for this module: ");
         module.enterScores(scanner);
       
+        // ************* shayma ayari *****************
+   
+        System.out.println("Student: " + student.getName() + " (ID: " + student.getStudentId() + ")");
+        
+        if (module.calculateAverage()  >= 10) {
+            System.out.println("Program validated with an overall average of " + module.calculateAverage() );
+        } else {
+            System.out.println("Program not validated with an overall average of " + module.calculateAverage() );
+        }
 
+        scanner.close(); 
        
-    }
+    } 
+
+ 
 }
